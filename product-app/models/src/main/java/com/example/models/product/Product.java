@@ -1,11 +1,11 @@
 package com.example.models.product;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
+import javax.persistence.*;
 
 @Entity
+@Table(name = "product", uniqueConstraints = {
+        @UniqueConstraint(columnNames = "name")
+})
 public class Product {
 
     @Id
@@ -13,6 +13,7 @@ public class Product {
     private Long id;
 
     private String name;
+
     private String description;
     private Double price;
     private Integer quantity;

@@ -16,7 +16,7 @@ public interface ProductService {
 
     List<Product> findAllProducts();
 
-    List<Product> findAllProductsOrderedByPrice();
+    List<Product> findAllProductsOrderedByPrice(boolean asc);
 
     void deleteProduct(Long id);
 }

@@ -5,6 +5,6 @@
 ### Things to improve.
 - Project needs testing.
 - Maven version handling is messy.
-- Pagination in service.
-- Exceptions Mappers could be implemented in order to make excepction catching easier.
-- 
+- Pagination requests.
+- Exceptions Mappers could be implemented in order to make excepction catching simpler.
+- A frontend to interact easily with the api.

@@ -64,8 +64,11 @@ public class ProductServiceImpl implements ProductService {
     }
 
     @Override
-    public List<Product> findAllProductsOrderedByPrice() {
-        return null;
+    public List<Product> findAllProductsOrderedByPrice(boolean asc) {
+        if(asc){
+            return repository.findAllByOrderByPriceAsc();
+        }
+        return repository.findAllByOrderByPriceDesc();
     }
 
     @Override
