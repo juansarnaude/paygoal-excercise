@@ -1,0 +1,69 @@
+# Maven
+/target/
+/**/target/
+!.mvn/wrapper/maven-wrapper.jar
+.mvn/wrapper/maven-wrapper.properties
+.mvn/wrapper/maven-wrapper.jar
+**/logs/
+**/hs_err_pid*
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.ipr
+*.iws
+out/
+
+# VS Code (si alguien abre desde ahí)
+.vscode/
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Logs
+*.log
+
+# Compilados y temporales
+*.class
+*.jar
+*.war
+*.ear
+
+# H2 database file (en caso de usar file-based)
+*.mv.db
+*.trace.db
+
+# Spring Boot devtools file caching
+.spring-boot-devtools.properties
+
+# Test reports
+**/test-output/
+**/surefire-reports/
+**/failsafe-reports/
+
+# Coverage reports
+**/jacoco.exec
+**/jacoco-report/
+**/coverage-reports/
+
+# Logs carpeta general
+/logs/
+
+# Archivos swap y temporales
+*.swp
+*.swo
+*.bak
+*.tmp
+
+# Archivos comprimidos
+*.zip
+*.tar.gz
+*.rar
+*.7z
+
+# Archivo local de configuración
+application-local.properties
+application-dev.properties
