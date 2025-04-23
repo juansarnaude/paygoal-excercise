@@ -22,3 +22,6 @@ java -jar app/target/app-1.0-SNAPSHOT.jar
 - Implement pagination for API requests.
 - Use exception mappers for simplified error handling.
 - A frontend to interact easily with the api.
+
+### Author
+Juan Segundo Arnaude (https://www.linkedin.com/in/juan-segundo-arnaude-5951b0282/)
