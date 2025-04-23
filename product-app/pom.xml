@@ -11,12 +11,32 @@
     <java.version>11</java.version>
     <spring-boot.version>2.7.18</spring-boot.version>
   </properties>
+  <dependencies>
+    <dependency>
+      <groupId>org.springframework</groupId>
+      <artifactId>spring-web</artifactId>
+    </dependency>
+  </dependencies>
+  <build>
+    <plugins>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-compiler-plugin</artifactId>
+        <version>3.10.1</version>
+        <configuration>
+          <source>${java.version}</source>
+          <target>${java.version}</target>
+        </configuration>
+      </plugin>
+    </plugins>
+  </build>
 
   <modules>
     <module>app</module>
     <module>persistence</module>
     <module>services</module>
     <module>models</module>
+    <module>interfaces</module>
   </modules>
 
   <dependencyManagement>
